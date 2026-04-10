@@ -1,0 +1,16 @@
+pos_class: cancer
+label_col: true_label
+prob_col : prob_cancer
+threshold_selection: acc
+
+--- THRESHOLD-INDEPENDENT ---
+AUROC : 0.975936
+AUPRC : 0.978823
+
+--- AT BEST THRESHOLD ---
+best_threshold: 0.466900
+ACC : 0.920000
+F1  : 0.918367
+MCC : 0.840673
+BalAcc: 0.920000
+TP=225  FP=15  FN=25  TN=235
